@@ -52,5 +52,3 @@ final_columns = ['Order ID', 'Date', 'Style', 'SKU', 'ASIN', 'Category', 'Size',
     'promotion_code', 'Amazon Fulfilment', 'Easy Ship', 'B2B']
 
 df = df[final_columns]
-
-#df.to_csv('data.csv', index=False)
